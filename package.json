@@ -1,0 +1,19 @@
+{
+  "name": "rbyc-db-autobackup",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Periodically backup wordpress database to S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francesco Battaglini <francesco@battaglini.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/yargs": "^16.0.1"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
